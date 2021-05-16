@@ -40,7 +40,7 @@ while ((1)); do
     # echo $url
     ffmpeg -i $url $part$file_ext
 
-    if [ $? ne 0 ]; then
+    if [ $? -ne 0 ]; then
         break
     fi
 
