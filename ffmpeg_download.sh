@@ -29,7 +29,6 @@ echo cnt=$cnt
 echo ================================
 
 touch flist.txt
-echo > flist.txt
 
 while ((1)); do
 
