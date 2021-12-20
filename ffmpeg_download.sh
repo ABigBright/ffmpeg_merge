@@ -11,7 +11,7 @@ if [ $# -le 1 ]; then
     echo "-n file index width, such as when n=4, it expand \"1\" to \"0001\""
     echo "-p file index prefix part"
     echo "-S file index suffix part"
-    # exit -1
+    exit -1
 fi
 
 while getopts "u:e:c:o:s:n:p:S:" opt
